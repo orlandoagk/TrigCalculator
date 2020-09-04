@@ -15,7 +15,6 @@ public class Main {
             double valorARetornar = Calculator.calculateTrigonometric(operation,number);
             jsonObject.put("operation",operation);
             jsonObject.put("value",valorARetornar);
-
             return jsonObject;
 
         });
